@@ -1,0 +1,72 @@
+{
+  "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "_:ds",
+  "typ": "Datová sada",
+  "název": {
+    "cs": "Pokus",
+    "en": "Test"
+  },
+  "popis": {
+    "cs": "Pokusný popis",
+    "en": "Test description"
+  },
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/obec/554782"
+  ],
+  "geografické_území": [],
+  "prostorové_pokrytí": [],
+  "klíčové_slovo": {
+    "cs": [
+      "Test",
+      "Pokus",
+      "Zkouška"
+    ],
+    "en": [
+      "Test",
+      "Try",
+      "For example"
+    ]
+  },
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/DAILY",
+  "dokumentace": "https://test.com/pokus",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/ENVI"
+  ],
+  "koncept_euroVoc": [
+    ""
+  ],
+  "kontaktní_bod": {
+    "typ": "Organizace",
+    "jméno": {
+      "cs": "Jan Novák"
+    },
+    "e-mail": "mailto:jnovakTest@gmail.com"
+  },
+  "distribuce": [
+    {
+      "typ": "Distribuce",
+      "název": {
+        "cs": "Test nazev distrubice",
+        "en": "Tese distr name"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "přístupové_url": "https://test.com/pokusEnd",
+      "přístupová_služba": {
+        "typ": "Datová služba",
+        "přístupový_bod": "https://test.com/pokusEnd",
+        "popis_přístupového_bodu": "https://test.com/pokusEnd/popis",
+        "název": {
+          "cs": "Test nazev distrubice",
+          "en": "Tese distr name"
+        },
+        "poskytuje_datovou_sadu": "_:ds"
+      }
+    }
+  ]
+}
